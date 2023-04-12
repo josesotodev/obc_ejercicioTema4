@@ -4,8 +4,11 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		CondicionIF primeraParte = new CondicionIF();
+		CondicionIF condicionIf = new CondicionIF();
+		CondicionWhile condicionWhile = new CondicionWhile();
 		
-		primeraParte.comparaNumero();		
+		
+		condicionIf.comparaNumero();
+		condicionWhile.condicionWhile();
 	}	
 }
