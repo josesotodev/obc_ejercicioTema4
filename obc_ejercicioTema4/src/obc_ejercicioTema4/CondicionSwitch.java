@@ -21,6 +21,11 @@ public class CondicionSwitch {
 		case "Invierno":
 				System.out.println("Es invierno");
 			break;
+			
+		default:
+			System.out.println("El valor no es uan estación.");
+			break;
+			
 		}
 	}
 	
