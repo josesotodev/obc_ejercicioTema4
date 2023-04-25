@@ -10,6 +10,7 @@ public class Main {
 		CondicionWhile condicionWhile = new CondicionWhile();
 		CondicionDoWhile condicionDoWhile = new CondicionDoWhile();
 		CondicionFor condicionFor = new CondicionFor();
+		CondicionSwitch condicionSwitch = new CondicionSwitch();
 		
 		int numero = generaNumeros();
 		
@@ -22,6 +23,8 @@ public class Main {
 		condicionDoWhile.condicionDoWhile(numero);
 		System.out.println("\nCondicion for \n");
 		condicionFor.condicionFor();
+		System.out.println("\nCondicion Switch \n");
+		condicionSwitch.condicionSwitch("Invierno");
 	}	
 	
 	public static int generaNumeros() {
